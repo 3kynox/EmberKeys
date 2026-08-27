@@ -1,0 +1,9 @@
+## Interface: 11200
+## Title: EmberKeys
+## Notes: Keeps key bindings the client forgets at restart (AZERTY é è ç à, and any non-ASCII key). / Rend persistants les raccourcis que le client oublie au redémarrage.
+## Author: eKyNoXx
+## Version: 0.9.0
+## X-License: MIT
+## SavedVariables: EmberKeysDB
+
+EmberKeys.lua
