@@ -42,10 +42,11 @@ loading `Keybinds.ini` — you have to re-bind them every session.
 - **Re-applies them automatically each session.** The engine imposes one
   ritual it cannot avoid: after each client launch, every affected key must
   be **pressed once**. In practice: **sweep the affected row once** (e.g. the
-  whole AZERTY digit row) — at the **character-select screen** or **in
-  game**, into the void; nothing needs to be on screen. The addon lists the
-  keys it is waiting for at login, confirms each re-attachment in the chat,
-  and one press unlocks all chords of that key (é also unlocks alt+é).
+  whole AZERTY digit row) — the presses work **anywhere in the client**: at
+  the login screen, at character select, in game into the void, even while
+  typing in the chat. The addon lists the keys it is waiting for at login,
+  confirms each re-attachment in the chat, and one press unlocks all chords
+  of that key (é also unlocks alt+é).
 - After a mere **relog or /reload** (client not closed), restoration is
   **instant and press-free**.
 - **Fixes the button labels** on the main bar and the multibars, native and
@@ -97,10 +98,11 @@ redémarrage sans avoir été pressées d'abord, le correctif est arrivé.
 
 **Le rituel, imposé par le moteur** : après chaque lancement du client,
 pressez une fois chaque touche concernée — le plus simple est d'**arroser la
-rangée complète** (rangée des chiffres en AZERTY), à l'**écran de sélection
-du personnage** ou **en jeu**, dans le vide. L'addon liste les touches
-attendues à la connexion et confirme dans le chat ; une frappe débloque
-aussi les combinaisons (é débloque alt+é). Après un simple relog ou /reload
+rangée complète** (rangée des chiffres en AZERTY). Les frappes marchent
+**n'importe où dans le client** : écran de connexion, sélection du
+personnage, en jeu dans le vide, même en tapant dans le chat. L'addon liste
+les touches attendues à la connexion et confirme dans le chat ; une frappe
+débloque aussi les combinaisons (é débloque alt+é). Après un simple relog ou /reload
 (sans fermer le jeu) : restauration instantanée, zéro frappe.
 
 Il corrige aussi l'affichage des boutons (`2 7 9 0` au lieu de `UNKN…`).
