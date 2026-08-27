@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500">
+  <defs>
+    <linearGradient id="ember" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb347"/>
+      <stop offset="1" stop-color="#e2571b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="1.0" r="0.9">
+      <stop offset="0" stop-color="#ff7a1f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ff7a1f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1500" height="500" fill="#14100b"/>
+  <rect width="1500" height="500" fill="url(#glow)"/>
+
+  <text x="80" y="262" font-family="Noto Sans" font-weight="bold" font-size="96">
+    <tspan fill="#ffa63e">Ember</tspan><tspan fill="#f4e8d8">Keys</tspan>
+  </text>
+  <text x="83" y="322" font-family="Noto Sans" font-size="34" fill="#a8987f">
+    Keeps the keys your client forgets.
+  </text>
+
+  <g stroke="url(#ember)" stroke-width="8" fill="#1e1610">
+    <rect x="700"  y="175" width="150" height="150" rx="30"/>
+    <rect x="900"  y="175" width="150" height="150" rx="30"/>
+    <rect x="1100" y="175" width="150" height="150" rx="30"/>
+    <rect x="1300" y="175" width="150" height="150" rx="30"/>
+  </g>
+  <g font-family="Noto Sans" font-weight="bold" font-size="30" fill="#8a6a48" text-anchor="middle">
+    <text x="731"  y="219">2</text>
+    <text x="931"  y="219">7</text>
+    <text x="1131" y="219">9</text>
+    <text x="1331" y="219">0</text>
+  </g>
+  <g font-family="Noto Sans" font-weight="bold" font-size="84" fill="#f6d7a8" text-anchor="middle">
+    <text x="778"  y="305">é</text>
+    <text x="978"  y="305">è</text>
+    <text x="1178" y="305">ç</text>
+    <text x="1378" y="305">à</text>
+  </g>
+</svg>
