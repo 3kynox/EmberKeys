@@ -32,6 +32,10 @@ loading `Keybinds.ini` — you have to re-bind them every session.
 
 ## What the addon does
 
+- **Works with any keyboard layout**: every binding whose key resolves to a
+  non-ASCII name is detected and handled, modifier combos included (alt+é,
+  ctrl+ü…). The AZERTY row is simply the most common case — and the only
+  shipped preset so far.
 - **Remembers** those bindings in its own saved variables, wherever they
   were made: the *Key Bindings* panel or unrealUI's quick bindings. Bind
   once, EmberKeys keeps it.
@@ -44,9 +48,10 @@ loading `Keybinds.ini` — you have to re-bind them every session.
   and one press unlocks all chords of that key (é also unlocks alt+é).
 - After a mere **relog or /reload** (client not closed), restoration is
   **instant and press-free**.
-- **Fixes the button labels**: `2 7 9 0` in the hotkey corner instead of
-  `UNKNOWNCHARCODE_…` (native bars) or a flickering `UNKN` (unrealUI), on
-  the main bar and the multibars.
+- **Fixes the button labels** on the main bar and the multibars, native and
+  unrealUI: the printed digit for the AZERTY row (`2 7 9 0`), the character
+  itself for any other key (`ü`, `ж`…), instead of `UNKNOWNCHARCODE_…` or a
+  flickering `UNKN`.
 
 ## Installation
 
